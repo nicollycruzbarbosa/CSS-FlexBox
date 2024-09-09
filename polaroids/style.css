@@ -1,0 +1,22 @@
+/* zerando as configurações */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilizando o parágrafo */
+.products p {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 30px;
+    background-color: rgba(252, 255, 159, 0.571);
+}
