@@ -1,0 +1,51 @@
+.container{
+    background-color: rgb(221, 205, 236);
+    height: 300px;
+
+    /* define um container flex */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(174, 133, 186, 0.808);
+    margin: 10px;
+    color: rgb(43, 57, 205);
+    font-size: 30px;
+
+    /* alinhando os números pro centro da caixinha */
+    display: flex;
+
+    /* justify-content:flex end alinha a direita */
+    justify-content:center;
+
+    /* align:items:flex-end; alinha os items na base */
+    align-items: center;
+
+}
+.item:nth-child(2){
+    flex-shrink: 3;
+}
+.item:nth-child(5){
+    flex-grow: 1;
+    order: 5;
+}
+.item:nth-child(3){
+    order: 2;
+    align-self: flex-end;
+}
+.item:nth-child(1){
+    order: 3;
+}
+.item:nth-child(4){
+    order: 4;
+}
+.item:nth-child(6){
+    order: 6;
+}
+
+
+    
