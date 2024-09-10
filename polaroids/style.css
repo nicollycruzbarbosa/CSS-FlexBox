@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* estilizando o parágrafo */
+
+/* Etilizando o parágrafo */
 .products p {
     margin: 0;
     text-align: center;
@@ -13,10 +14,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: cornflowerblue;
-    padding: 30px;
-    background-color: rgba(252, 255, 159, 0.571);
+    color:#a0b6fe;
+    padding:30px;
+    background-color: #f0f4a2;
+}
+
+main#album{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+.products{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding:20px;
+    margin-bottom:20px;
+    /* transformando em container */
+    display: flex;
+    /* deixa o texto embaixo da imagem */
+    flex-direction: column;
+}
+.products img{
+    width:100%;
+    height:auto;
+    padding-bottom:10px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #000000;
+    color:#ffffff;
+    padding:30px;
+    text-align:center;
 }
