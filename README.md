@@ -3,6 +3,6 @@ _Desenvolvido a partir de CSS_
 
 *PROJETOS*:
 
-Teste FlexBox
-Polaroids
-Desafio (Jogo FlexBox Froggy, CSS Diner)
+- Teste FlexBox
+- Polaroids
+- Desafio (Jogo FlexBox Froggy, CSS Diner)
